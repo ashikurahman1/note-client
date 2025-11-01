@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAuth } from 'firebase/auth';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api',
+  baseURL: 'https://note-serverv1.vercel.app/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
