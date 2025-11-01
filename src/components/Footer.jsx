@@ -4,12 +4,12 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl mx-auto flex justify-center items-center">
-      <div className="absolute bottom-4 flex flex-col items-center md:flex-row md:gap-20 md:justify-center">
-        <p className="text-sm md:text-base  animate-fadeIn">
+    <footer className="w-full lg:w-10/12 py-3 mx-auto px-4">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-3">
+        <p className="text-sm animate-fadeIn">
           &copy; {new Date().getFullYear()} Notes. All rights reserved.
         </p>
-        <div className="flex space-x-4 mt-2">
+        <div className="flex space-x-4">
           <a
             href="https://www.facebook.com/ashikke2.0"
             target="_blank"

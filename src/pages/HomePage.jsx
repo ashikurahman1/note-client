@@ -10,7 +10,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { Loader2Icon } from 'lucide-react';
 import Footer from '../components/Footer';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 const HomePage = () => {
   const [rateLimited, setRateLimited] = useState(false);
   const [notes, setNotes] = useState([]);
@@ -51,12 +51,12 @@ const HomePage = () => {
       </div>
     );
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
       {rateLimited && <RateLimitedUI />}
 
-      <main className="max-w-7xl mx-auto p-4 m-6 min-h-screen">
+      <main className="w-full lg:w-10/12 mx-auto p-4 m-6 flex-1">
         {user && (
           <div className="mb-8 text-center">
             <h1 className="text-xl md:text-2xl font-semibold">
@@ -81,6 +81,8 @@ const HomePage = () => {
           </div>
         )}
       </main>
+
+      <Footer />
     </div>
   );
 };

@@ -46,7 +46,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="py-10 md:py-20 lg:py-30 px-4">
+    <div className="py-10 md:py-20 px-4">
       <div className="max-w-md mx-auto bg-base-100 p-8 rounded-lg shadow-lg pb-10 relative">
         <Link to="/" className="btn btn-sm rounded-xs absolute left-0 top-0">
           <ArrowLeftIcon className="w-4 h-4" />

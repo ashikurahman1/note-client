@@ -11,7 +11,7 @@ import RegisterPage from './pages/RegisterPage';
 const App = () => (
   <AuthProvider>
     <div
-      className="min-h-screen w-full "
+      className="min-h-screen w-full"
       style={{
         background:
           'radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%)',
