@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="flex space-x-4">
           <a
-            href="https://www.facebook.com/ashikke2.0"
+            href="https://www.facebook.com/ashikurrdev"
             target="_blank"
             rel="noopener noreferrer"
           >
