@@ -6,7 +6,7 @@ application. Users can securely create, edit, and manage notes in real-time.
 management. The app features a modern, responsive UI for a seamless user
 experience.
 
-![Note App Screenshot](https://note-v1.vercel.app/note.png)
+![Note App Screenshot](https://raw.githubusercontent.com/ashikurahman1/webcy-agency/refs/heads/main/src/assets/projectsImg/note-v1.vercel.app_.png)
 
 ## ⚡ Features
 
@@ -76,8 +76,7 @@ npm install
 Create a .env file for firebase API
 npm run dev
 Open the app in your browser: http://localhost:5173
-
+```
 
 ## Live Demo
 [https://note-v1.vercel.app/](https://note-v1.vercel.app/)
-```
